@@ -30,3 +30,4 @@
     G. true as the Boolean(2) maps to only true or false, and 2 is true  
 15. '===' is a more stricter operation and what that means is that it also checks the types of the two things being compared, and hence, will return false if the two values are of different types. On the other hand, '==' tries to map the things being compared to the same type of numbers and then tries to make a like-to-like comparision to check if they are equal.  
 17. The function would return [2, 4, 6] and we can follow this through some steps. We first call modifyArray which takes in [1, 2, 3] as the array and doSomething as the callback function. In the loop, we run the loop for the length of the array, and then for every index in the array, we pass in the value to doSomething which multiples the number value by 2, so we get [2, 4, 6]. When then return the newArr after pushing the values into the array.
+19. The output would be 1 3 4 2.
